@@ -1,0 +1,1196 @@
+@font-face {
+  font-family: "Nunito Sans";
+  src: url("fonts/NunitoSans-Bold.eot");
+  src: url("fonts/NunitoSans-Bold.eot?#iefix") format("embedded-opentype"),
+    url("fonts/NunitoSans-Bold.woff2") format("woff2"),
+    url("fonts/NunitoSans-Bold.woff") format("woff"),
+    url("fonts/NunitoSans-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  src: url("fonts/NunitoSans-SemiBoldItalic.eot");
+  src: url("fonts/NunitoSans-SemiBoldItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/NunitoSans-SemiBoldItalic.woff2") format("woff2"),
+    url("fonts/NunitoSans-SemiBoldItalic.woff") format("woff"),
+    url("fonts/NunitoSans-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  src: url("fonts/NunitoSans-BlackItalic.eot");
+  src: url("fonts/NunitoSans-BlackItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/NunitoSans-BlackItalic.woff2") format("woff2"),
+    url("fonts/NunitoSans-BlackItalic.woff") format("woff"),
+    url("fonts/NunitoSans-BlackItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  src: url("fonts/NunitoSans-ExtraBoldItalic.eot");
+  src: url("fonts/NunitoSans-ExtraBoldItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/NunitoSans-ExtraBoldItalic.woff2") format("woff2"),
+    url("fonts/NunitoSans-ExtraBoldItalic.woff") format("woff"),
+    url("fonts/NunitoSans-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  src: url("fonts/NunitoSans-Black.eot");
+  src: url("fonts/NunitoSans-Black.eot?#iefix") format("embedded-opentype"),
+    url("fonts/NunitoSans-Black.woff2") format("woff2"),
+    url("fonts/NunitoSans-Black.woff") format("woff"),
+    url("fonts/NunitoSans-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  src: url("fonts/NunitoSans-ExtraLight.eot");
+  src: url("fonts/NunitoSans-ExtraLight.eot?#iefix") format("embedded-opentype"),
+    url("fonts/NunitoSans-ExtraLight.woff2") format("woff2"),
+    url("fonts/NunitoSans-ExtraLight.woff") format("woff"),
+    url("fonts/NunitoSans-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  src: url("fonts/NunitoSans-ExtraLightItalic.eot");
+  src: url("fonts/NunitoSans-ExtraLightItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/NunitoSans-ExtraLightItalic.woff2") format("woff2"),
+    url("fonts/NunitoSans-ExtraLightItalic.woff") format("woff"),
+    url("fonts/NunitoSans-ExtraLightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  src: url("fonts/NunitoSans-Light.eot");
+  src: url("fonts/NunitoSans-Light.eot?#iefix") format("embedded-opentype"),
+    url("fonts/NunitoSans-Light.woff2") format("woff2"),
+    url("fonts/NunitoSans-Light.woff") format("woff"),
+    url("fonts/NunitoSans-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  src: url("fonts/NunitoSans-LightItalic.eot");
+  src: url("fonts/NunitoSans-LightItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/NunitoSans-LightItalic.woff2") format("woff2"),
+    url("fonts/NunitoSans-LightItalic.woff") format("woff"),
+    url("fonts/NunitoSans-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  src: url("fonts/NunitoSans-Regular.eot");
+  src: url("fonts/NunitoSans-Regular.eot?#iefix") format("embedded-opentype"),
+    url("fonts/NunitoSans-Regular.woff2") format("woff2"),
+    url("fonts/NunitoSans-Regular.woff") format("woff"),
+    url("fonts/NunitoSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  src: url("fonts/NunitoSans-SemiBold.eot");
+  src: url("fonts/NunitoSans-SemiBold.eot?#iefix") format("embedded-opentype"),
+    url("fonts/NunitoSans-SemiBold.woff2") format("woff2"),
+    url("fonts/NunitoSans-SemiBold.woff") format("woff"),
+    url("fonts/NunitoSans-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  src: url("fonts/NunitoSans-Italic.eot");
+  src: url("fonts/NunitoSans-Italic.eot?#iefix") format("embedded-opentype"),
+    url("fonts/NunitoSans-Italic.woff2") format("woff2"),
+    url("fonts/NunitoSans-Italic.woff") format("woff"),
+    url("fonts/NunitoSans-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  src: url("fonts/NunitoSans-BlackItalic.eot");
+  src: url("fonts/NunitoSans-BlackItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/NunitoSans-BlackItalic.woff2") format("woff2"),
+    url("fonts/NunitoSans-BlackItalic.woff") format("woff"),
+    url("fonts/NunitoSans-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  src: url("fonts/NunitoSans-ExtraBold.eot");
+  src: url("fonts/NunitoSans-ExtraBold.eot?#iefix") format("embedded-opentype"),
+    url("fonts/NunitoSans-ExtraBold.woff2") format("woff2"),
+    url("fonts/NunitoSans-ExtraBold.woff") format("woff"),
+    url("fonts/NunitoSans-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  src: url("fonts/NunitoSans-BoldItalic.eot");
+  src: url("fonts/NunitoSans-BoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("fonts/NunitoSans-BoldItalic.woff2") format("woff2"),
+    url("fonts/NunitoSans-BoldItalic.woff") format("woff"),
+    url("fonts/NunitoSans-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Hind";
+  src: url("fonts/Hind-SemiBold.eot");
+  src: url("fonts/Hind-SemiBold.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Hind-SemiBold.woff2") format("woff2"),
+    url("fonts/Hind-SemiBold.woff") format("woff"),
+    url("fonts/Hind-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Hind";
+  src: url("fonts/Hind-Bold.eot");
+  src: url("fonts/Hind-Bold.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Hind-Bold.woff2") format("woff2"),
+    url("fonts/Hind-Bold.woff") format("woff"),
+    url("fonts/Hind-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Hind";
+  src: url("fonts/Hind-Regular.eot");
+  src: url("fonts/Hind-Regular.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Hind-Regular.woff2") format("woff2"),
+    url("fonts/Hind-Regular.woff") format("woff"),
+    url("fonts/Hind-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Hind";
+  src: url("fonts/Hind-Medium.eot");
+  src: url("fonts/Hind-Medium.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Hind-Medium.woff2") format("woff2"),
+    url("fonts/Hind-Medium.woff") format("woff"),
+    url("fonts/Hind-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Hind";
+  src: url("fonts/Hind-Light.eot");
+  src: url("fonts/Hind-Light.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Hind-Light.woff2") format("woff2"),
+    url("fonts/Hind-Light.woff") format("woff"),
+    url("fonts/Hind-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* ==========================================================================
+Fonts
+   ========================================================================== */
+label {
+  font-weight: bold;
+}
+
+html,
+body {
+  font-family: Hind, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Nunito Sans, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+p.lead {
+  font-size: 24px;
+}
+
+/* ==========================================================================
+Layout
+   ========================================================================== */
+.well {
+  border: 3px solid #34a853;
+  padding: 1px 20px 20px 20px;
+  margin-bottom: 20px;
+}
+
+.well > p {
+  margin-bottom: 0;
+}
+
+.well > p a.atc-style-blue.atcb-link {
+  margin-bottom: 0;
+}
+
+.well p.calbutton {
+  margin-top: 0;
+}
+
+.topbar {
+  background-color: #d9d9d9;
+}
+
+.topbar span {
+  color: #2b376e;
+}
+
+h1#welcome {
+  line-height: 1.1;
+}
+
+header#mainheader {
+  width: 100%;
+  background-color: #2b376e;
+}
+
+header#mainheader h1.pagetitle {
+  color: white;
+  font-size: 33px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+header#mainheader span.subtitle {
+  font-family: Nunito Sans, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 28px;
+  color: white;
+}
+
+article.main > header > h1 {
+  margin-top: 30px;
+  font-size: 5.5rem;
+}
+
+#footer {
+  background-color: #2b376e;
+  clear: both;
+  margin-top: 20px;
+  color: white;
+  padding: 20px 0;
+}
+
+#footer h2 {
+  margin-top: 0.5em;
+}
+
+#footer a,
+#footer a:hover {
+  color: white;
+}
+
+#footer a.at-icon-wrapper.at-share-btn[style] {
+  background-color: transparent !important;
+}
+
+#footer h1 {
+  font-size: 28px;
+  margin-top: 7px;
+}
+
+#footer .socialicon {
+  width: 23px;
+  height: auto;
+  margin-right: 5px;
+}
+
+#footer a.sociallink,
+#footer a.sociallink:hover {
+  text-decoration: none;
+}
+
+#footer .socialicon:hover {
+  -webkit-transform: translateY(-4px);
+  transform: translateY(-4px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.grecaptcha-badge {
+  display: none;
+}
+
+/* ==========================================================================
+Forms
+   ========================================================================== */
+form {
+  /* border: 3px solid #2a7997; */
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* ==========================================================================
+Buttons
+   ========================================================================== */
+.usa-button,
+.usa-button-primary,
+.usa-button-primary:visited,
+.usa-button:visited,
+[type="button"],
+[type="image"],
+[type="reset"],
+[type="submit"],
+button,
+.atc-style-blue .atcb-link,
+.atc-style-blue .atcb-link:hover,
+.atc-style-blue .atcb-link:active,
+.atc-style-blue .atcb-link:focus {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  margin-top: 0.5em;
+  margin-right: 0.5em;
+  margin-bottom: 0;
+
+  background-color: rgba(0, 0, 0, 0.01);
+  border: 0;
+  border-radius: 0;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Hind, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+  font-size: 1.7rem;
+  font-weight: bold;
+  line-height: 1;
+  outline: none;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  /* width: 100%;
+    border: 2px solid white; */
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.usa-button-primary.usa-button-hover,
+.usa-button-primary:hover,
+.usa-button-primary:visited.usa-button-hover,
+.usa-button-primary:visited:hover,
+.usa-button.usa-button-hover,
+.usa-button:hover,
+.usa-button:visited.usa-button-hover,
+.usa-button:visited:hover,
+[type="button"].usa-button-hover,
+[type="button"]:hover,
+[type="image"].usa-button-hover,
+[type="image"]:hover,
+[type="reset"].usa-button-hover,
+[type="reset"]:hover,
+[type="submit"].usa-button-hover,
+[type="submit"]:hover,
+button.usa-button-hover,
+button:hover,
+.atc-style-blue .atcb-link:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+
+  color: #fff;
+  text-decoration: none;
+}
+
+/* ==========================================================================
+Media queries
+   ========================================================================== */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  header#mainheader h1.pagetitle {
+    font-size: 25px;
+  }
+  header#mainheader span.subtitle {
+    font-size: 22px;
+  }
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+  color: #333;
+}
+
+.copyright {
+  margin-top: 1em;
+}
+
+p,
+a,
+li {
+  word-wrap: break-word;
+}
+
+.topbar {
+  padding: 10px 0;
+}
+
+.topbar span {
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.topbar img {
+  vertical-align: sub;
+}
+
+.topbar #google_translate_element {
+  float: right;
+  margin: 0 20px 0 0;
+}
+
+.topbar #google_translate_element select {
+  width: 200px;
+  padding: 0 15px !important;
+}
+
+.topbar .goog-te-gadget select.goog-te-combo {
+  margin: 0 !important;
+  padding: 0 15px !important;
+  height: 3rem;
+}
+
+.g-recaptcha {
+  clear: both;
+}
+
+img {
+  max-width: 100%;
+}
+
+.headerimg {
+  margin-top: 10px;
+}
+
+.footerimg {
+  width: 100%;
+  margin-top: 50px;
+  max-width: 270px;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/*
+ * Hide visually and from screen readers
+ */
+.hidden {
+  display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+.invisible {
+  visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+  (-webkit-min-device-pixel-ratio: 1.25),
+  (min-resolution: 1.25dppx),
+  (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+@media print {
+  *,
+  *:before,
+  *:after,
+  *:first-letter,
+  *:first-line {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+  /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+  thead {
+    display: table-header-group;
+  }
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+  img {
+    max-width: 100% !important;
+  }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+/* 
+@media screen and (min-width: 768px) {
+    header#mainheader h1.pagetitle {
+        margin-top: 31px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    img.stlogo {
+        display: block;
+        margin-bottom: 5px;
+    }
+    span.timespan {
+        padding-left: 0;
+    }
+    .topbar #google_translate_element {
+        float: none;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        width: 980px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .container {
+        width: 1400px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    article.main > header > h1 {
+        font-size: 4rem;
+    }
+} */
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+  color: #333;
+}
+
+.copyright {
+  margin-top: 1em;
+}
+
+p,
+a,
+li {
+  word-wrap: break-word;
+}
+
+.g-recaptcha {
+  clear: both;
+}
+
+img {
+  max-width: 100%;
+}
+
+.headerimg {
+  margin-top: 10px;
+}
+
+.footerimg {
+  width: 100%;
+  margin-top: 50px;
+  max-width: 270px;
+}
+
+header#mainheader {
+  background-color: #2b376e;
+}
+
+header#mainheader:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+header#mainheader h1 {
+  color: white;
+  margin: 0.2em 0 0.3em 0;
+  font-size: clamp(2.3rem, 1.5615rem, 3.6923vw, 4.1rem);
+  line-height: 1;
+}
+
+header#mainheader h1 span {
+  font-size: clamp(2.2rem, 2.0359rem + 0.8205vw, 2.6rem);
+  font-weight: normal;
+  color: white;
+}
+
+header#mainheader .row .col-md-6:first-of-type img {
+  width: clamp(18rem, 10.6154rem + 36.9231vw, 36rem);
+}
+
+header#mainheader .row .col-md-6:nth-of-type(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+header#mainheader .row .col-md-6:nth-of-type(2) > div {
+  text-align: right;
+}
+
+header#mainheader .row .col-md-6:nth-of-type(2) img.st-logo {
+  max-width: 210px;
+  margin: 0 0 0 auto;
+}
+
+header#mainheader .row .col-md-6:nth-of-type(2) p {
+  color: white;
+  font-size: 2.4rem;
+  text-align: right;
+}
+
+header#mainheader .row .col-md-6:nth-of-type(2) a:not(.goog-logo-link) {
+  color: white;
+  text-decoration: none;
+  font-size: 2.2rem;
+}
+
+header#mainheader .row .col-md-6:nth-of-type(2) a:hover {
+  text-decoration: underline;
+}
+
+header#mainheader .row .col-md-6:nth-of-type(2) .translate-button {
+  background-color: transparent !important;
+  border: none !important;
+  font-size: 3.2rem;
+  text-align: right;
+  padding: 0;
+  width: 30px;
+  margin: 0 0 20px 20px;
+}
+
+header#mainheader .row .col-md-6:nth-of-type(2) .translate-button:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+header#mainheader .row .col-md-6:nth-of-type(2) #google_translate_element {
+  display: none;
+  margin: 0 0 0 auto;
+  width: 50%;
+  -webkit-animation: 0.5s ease-in-out 0s 1 normal none running sweep;
+  animation: 0.5s ease-in-out 0s 1 normal none running sweep;
+}
+
+header#mainheader .row .col-md-6:nth-of-type(2) .skiptranslate.goog-te-gadget {
+  color: white;
+}
+
+header#mainheader .row .col-md-6:nth-of-type(2) .goog-logo-link,
+header#mainheader .row .col-md-6:nth-of-type(2) .goog-logo-link:link {
+  color: white !important;
+}
+/* 
+@media only screen and (max-width: 1070px) {
+    header#mainheader h1 {
+        margin: 0.9em 0 0.3em 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    header#mainheader h1 {
+        margin: 0.7em 0 0.3em 0;
+    }
+}
+
+@media only screen and (max-width: 378px) {
+    header#mainheader h1 {
+        margin: 0.6em 0 0.3em 0;
+    }
+}
+/* 
+@media only screen and (max-width: 768px) {
+    header#mainheader .row .col-md-6:nth-of-type(2) p {
+        font-size: 2rem;
+        text-align: left;
+    }
+    header#mainheader .row .col-md-6:nth-of-type(2) .translate-button {
+        float: right;
+        margin: 0 0 10px 10px;
+    }
+    header#mainheader .row .col-md-6:nth-of-type(2) #google_translate_element {
+        margin: 0 0 10px auto;
+        width: 70%;
+    }
+    header#mainheader .row .col-md-6:first-of-type img {
+        margin-left: -20px;
+    }
+    header#mainheader .row .col-md-6:nth-of-type(2) img.st-logo {
+        margin: 6px 0;
+    }
+} */
+*/ @-webkit-keyframes sweep {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes sweep {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/*
+ * Hide visually and from screen readers
+ */
+.hidden {
+  display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+.invisible {
+  visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+  (-webkit-min-device-pixel-ratio: 1.25),
+  (min-resolution: 1.25dppx),
+  (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+@media print {
+  *,
+  *:before,
+  *:after,
+  *:first-letter,
+  *:first-line {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+  /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+  thead {
+    display: table-header-group;
+  }
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+  img {
+    max-width: 100% !important;
+  }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  header#mainheader h1.pagetitle {
+    margin-top: 31px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  img.stlogo {
+    display: block;
+    margin-bottom: 5px;
+  }
+  span.timespan {
+    padding-left: 10px;
+  }
+  .topbar #google_translate_element {
+    float: none;
+  }
+}
+/* 
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        width: 980px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 980px;
+    }
+} */
+
+@media screen and (max-width: 600px) {
+  article.main > header > h1 {
+    font-size: 4rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */

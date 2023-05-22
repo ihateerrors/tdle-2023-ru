@@ -1,0 +1,1004 @@
+
+
+.position-container {
+    position: relative;
+  }
+
+  .improvedselect ul li {
+    padding: 0 5px;
+    display: block;
+    margin: 0;
+    cursor: pointer;
+    background: none;
+  }
+  .improvedselect .del_all:hover,
+  .improvedselect .add_all:hover,
+  .improvedselect .del:hover,
+  .improvedselect .add:hover,
+  .improvedselect .move_up:hover,
+  .improvedselect .move_down:hover {
+    background: #ccc;
+  }
+  .improvedselect .improvedselect-text-wrapper {
+    border: 1px solid gray;
+    margin-bottom: 5px;
+  }
+  .improvedselect input.improvedselect_filter {
+    width: 96%;
+    height: 20px;
+    padding: 0 2%;
+  }
+  .improvedselect .add_all,
+  .improvedselect .del_all,
+  .improvedselect .del,
+  .improvedselect .add,
+  .improvedselect .move_up,
+  .improvedselect .move_down {
+    display: block;
+    width: 80%;
+    border: 1px solid gray;
+    cursor: pointer;
+    margin: 0 0 10px 10%;
+    text-align: center;
+    background: white;
+    /* This is to make the text in the buttons un-selectable. */
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .improvedselect .improvedselect_control {
+    float: left;
+    width: 18%;
+    padding-top: 30px;
+  }
+  .improvedselect li:hover {
+    background: #eee;
+  }
+  .improvedselect li.selected {
+    color: white;
+    background: #3399ff;
+  }
+  .improvedselect ul.improvedselect_sel,
+  .improvedselect ul.improvedselect_all {
+    width: 40%;
+    height: 200px;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+    display: block;
+    border: 1px solid gray;
+    background: white;
+    list-style: none;
+  }
+  .has_group ul.improvedselect_sel,
+  .has_group ul.improvedselect_all {
+    width: 30%;
+  }
+  .improvedselect div.improvedselect_tabs-wrapper {
+    width: 19%;
+    float: left;
+  }
+  .improvedselect ul.improvedselect_tabs {
+    margin: 0;
+    padding: 0;
+  }
+  .improvedselect ul.improvedselect_tabs li {
+    margin-bottom: 5px;
+    padding: 1px 0 1px 5px;
+    /* This is to make the text in the buttons un-selectable. */
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .improvedselect ul.improvedselect_tabs li.selected {
+    background-color: white;
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px 0 1px 1px;
+    padding: 0;
+  }
+  .improvedselect ul.improvedselect_tabs li.selected div {
+    background-color: white;
+    margin: 0 -1px 0 1px;
+    position: relative;
+  }
+  .improvedselect ul.improvedselect_tabs li.selected div a {
+    margin-left: 3px;
+    padding-right: 5px;
+  }
+  .improvedselect .improvedselect_all {
+    float: left;
+  }
+  .improvedselect .improvedselect_sel {
+    float: right;
+  }
+  .improvedselect .clear {
+    clear: both;
+  }
+  .improvedselect {
+    border: 1px solid gray;
+    background: #eee;
+    padding: 1%;
+    min-width: 440px;
+    overflow: hidden;
+  }
+
+  .fieldgroup {
+    padding: 0;
+    border-width: 0;
+  }
+
+  .container-inline div,
+.container-inline label {
+  display: inline-block;
+}
+/* Details contents always need to be rendered as block. */
+.container-inline .details-wrapper {
+  display: block;
+}
+.container-inline .hidden {
+  display: none;
+}
+.clearfix:after {
+    display: table;
+    clear: both;
+    content: "";
+  }
+
+  .js details:not([open]) .details-wrapper {
+    display: none;
+  }
+
+  .hidden {
+    display: none;
+  }
+  
+  /**
+   * Hide elements visually, but keep them available for screen readers.
+   *
+   * Used for information required for screen reader users to understand and use
+   * the site where visual display is undesirable. Information provided in this
+   * manner should be kept concise, to avoid unnecessary burden on the user.
+   * "!important" is used to prevent unintentional overrides.
+   */
+  .visually-hidden {
+    position: absolute !important;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    width: 1px;
+    height: 1px;
+    word-wrap: normal;
+  }
+  
+  /**
+   * The .focusable class extends the .visually-hidden class to allow
+   * the element to be focusable when navigated to via the keyboard.
+   */
+  .visually-hidden.focusable:active,
+  .visually-hidden.focusable:focus {
+    position: static !important;
+    overflow: visible;
+    clip: auto;
+    width: auto;
+    height: auto;
+  }
+  
+  /**
+   * Hide visually and from screen readers, but maintain layout.
+   */
+  .invisible {
+    visibility: hidden;
+  }
+
+  
+.item-list__comma-list,
+.item-list__comma-list li {
+  display: inline;
+}
+.item-list__comma-list {
+  margin: 0;
+  padding: 0;
+}
+.item-list__comma-list li:after {
+  content: ", ";
+}
+.item-list__comma-list li:last-child:after {
+  content: "";
+}
+
+/**
+ * For anything you want to hide on page load when JS is enabled, so
+ * that you can use the JS to control visibility and avoid flicker.
+ */
+ .js .js-hide {
+    display: none;
+  }
+  
+  /**
+   * For anything you want to show on page load only when JS is enabled.
+   */
+  .js-show {
+    display: none;
+  }
+  .js .js-show {
+    display: block;
+  }
+
+  .nowrap {
+    white-space: nowrap;
+  }
+
+  .position-container {
+    position: relative;
+  }
+
+
+  
+.progress {
+    position: relative;
+  }
+  .progress__track {
+    min-width: 100px;
+    max-width: 100%;
+    height: 16px;
+    margin-top: 5px;
+    border: 1px solid;
+    background-color: #fff;
+  }
+  .progress__bar {
+    width: 3%;
+    min-width: 3%;
+    max-width: 100%;
+    height: 16px;
+    background-color: #000;
+  }
+  .progress__description,
+  .progress__percentage {
+    overflow: hidden;
+    margin-top: 0.2em;
+    color: #555;
+    font-size: 0.875em;
+  }
+  .progress__description {
+    float: left; /* LTR */
+  }
+  [dir="rtl"] .progress__description {
+    float: right;
+  }
+  .progress__percentage {
+    float: right; /* LTR */
+  }
+  [dir="rtl"] .progress__percentage {
+    float: left;
+  }
+  .progress--small .progress__track {
+    height: 7px;
+  }
+  .progress--small .progress__bar {
+    height: 7px;
+    background-size: 20px 20px;
+  }
+
+  
+.reset-appearance {
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+    background: transparent;
+    line-height: inherit;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+
+  .resize-none {
+    resize: none;
+  }
+  .resize-vertical {
+    min-height: 2em;
+    resize: vertical;
+  }
+  .resize-horizontal {
+    max-width: 100%;
+    resize: horizontal;
+  }
+  .resize-both {
+    max-width: 100%;
+    min-height: 2em;
+    resize: both;
+  }
+
+
+  table.sticky-header {
+    z-index: 500;
+    top: 0;
+    margin-top: 0;
+    background-color: #fff;
+  }
+
+  
+.system-status-counter__status-icon {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+  }
+  .system-status-counter__status-icon:before {
+    display: block;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-repeat: no-repeat;
+    background-position: center 2px;
+    background-size: 16px;
+  }
+  
+  .system-status-counter__status-icon--error:before {
+    background-image: url(../../../../misc/icons/e32700/error.svg);
+  }
+  .system-status-counter__status-icon--warning:before {
+    background-image: url(../../../../misc/icons/e29700/warning.svg);
+  }
+  .system-status-counter__status-icon--checked:before {
+    background-image: url(../../../../misc/icons/73b355/check.svg);
+  }
+
+
+  .system-status-report-counters__item {
+    width: 100%;
+    margin-bottom: 0.5em;
+    padding: 0.5em 0;
+    text-align: center;
+    white-space: nowrap;
+    background-color: rgba(0, 0, 0, 0.063);
+  }
+  
+  @media screen and (min-width: 60em) {
+    .system-status-report-counters {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .system-status-report-counters__item--half-width {
+      width: 49%;
+    }
+    .system-status-report-counters__item--third-width {
+      width: 33%;
+    }
+  }
+
+  
+.system-status-general-info__item {
+    margin-top: 1em;
+    padding: 0 1em 1em;
+    border: 1px solid #ccc;
+  }
+  
+  .system-status-general-info__item-title {
+    border-bottom: 1px solid #ccc;
+  }
+
+  .tablesort {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-size: 100%;
+  }
+  .tablesort--asc {
+    background-image: url(../../../../misc/icons/787878/twistie-down.svg);
+  }
+  .tablesort--desc {
+    background-image: url(../../../../misc/icons/787878/twistie-up.svg);
+  }
+
+  div.tree-child {
+    background: url(../../../../misc/tree.png) no-repeat 11px center; /* LTR */
+  }
+  div.tree-child-last {
+    background: url(../../../../misc/tree-bottom.png) no-repeat 11px center; /* LTR */
+  }
+  [dir="rtl"] div.tree-child,
+  [dir="rtl"] div.tree-child-last {
+    background-position: -65px center;
+  }
+  div.tree-child-horizontal {
+    background: url(../../../../misc/tree.png) no-repeat -11px center;
+  }
+
+  .video-embed-field-responsive-video {
+    position: relative;
+  }
+  
+  .video-embed-field-responsive-video:after {
+    content: '';
+    display: block;
+    padding-bottom: 56.25%;
+  }
+  
+  .video-embed-field-responsive-video iframe {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  
+  .video-embed-field-responsive-modal {
+    max-width: 100%;
+  }
+  
+  .video-embed-field-lazy {
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .video-embed-field-lazy img {
+    width: 100%;
+  }
+  
+  .video-embed-field-lazy-play {
+    height: 72px;
+    width: 72px;
+    left: 50%;
+    top: 50%;
+    margin-left: -36px;
+    margin-top: -36px;
+    position: absolute;
+    background: url("icons/play.svg") no-repeat;
+    cursor: pointer;
+    background-size: 72px 72px;
+  }
+
+  .caption {
+    display: table;
+  }
+  .caption > * {
+    display: block;
+    max-width: 100%;
+  }
+  .caption > figcaption {
+    display: table-caption;
+    max-width: none;
+    caption-side: bottom;
+  }
+  
+  /**
+   * While editing and whenever the caption is empty, show a placeholder.
+   *
+   * Based on http://codepen.io/flesler/pen/AEIFc.
+   */
+  .caption > figcaption[contenteditable=true]:empty:before {
+    content: attr(data-placeholder);
+    font-style: italic;
+  }
+
+  .improvedselect ul li {
+    padding: 0 5px;
+    display: block;
+    margin: 0;
+    cursor: pointer;
+    background: none;
+  }
+  .improvedselect .del_all:hover,
+  .improvedselect .add_all:hover,
+  .improvedselect .del:hover,
+  .improvedselect .add:hover,
+  .improvedselect .move_up:hover,
+  .improvedselect .move_down:hover {
+    background: #ccc;
+  }
+  .improvedselect .improvedselect-text-wrapper {
+    border: 1px solid gray;
+    margin-bottom: 5px;
+  }
+  .improvedselect input.improvedselect_filter {
+    width: 96%;
+    height: 20px;
+    padding: 0 2%;
+  }
+  .improvedselect .add_all,
+  .improvedselect .del_all,
+  .improvedselect .del,
+  .improvedselect .add,
+  .improvedselect .move_up,
+  .improvedselect .move_down {
+    display: block;
+    width: 80%;
+    border: 1px solid gray;
+    cursor: pointer;
+    margin: 0 0 10px 10%;
+    text-align: center;
+    background: white;
+    /* This is to make the text in the buttons un-selectable. */
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .improvedselect .improvedselect_control {
+    float: left;
+    width: 18%;
+    padding-top: 30px;
+  }
+  .improvedselect li:hover {
+    background: #eee;
+  }
+  .improvedselect li.selected {
+    color: white;
+    background: #3399ff;
+  }
+  .improvedselect ul.improvedselect_sel,
+  .improvedselect ul.improvedselect_all {
+    width: 40%;
+    height: 200px;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+    display: block;
+    border: 1px solid gray;
+    background: white;
+    list-style: none;
+  }
+  .has_group ul.improvedselect_sel,
+  .has_group ul.improvedselect_all {
+    width: 30%;
+  }
+  .improvedselect div.improvedselect_tabs-wrapper {
+    width: 19%;
+    float: left;
+  }
+  .improvedselect ul.improvedselect_tabs {
+    margin: 0;
+    padding: 0;
+  }
+  .improvedselect ul.improvedselect_tabs li {
+    margin-bottom: 5px;
+    padding: 1px 0 1px 5px;
+    /* This is to make the text in the buttons un-selectable. */
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .improvedselect ul.improvedselect_tabs li.selected {
+    background-color: white;
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px 0 1px 1px;
+    padding: 0;
+  }
+  .improvedselect ul.improvedselect_tabs li.selected div {
+    background-color: white;
+    margin: 0 -1px 0 1px;
+    position: relative;
+  }
+  .improvedselect ul.improvedselect_tabs li.selected div a {
+    margin-left: 3px;
+    padding-right: 5px;
+  }
+  .improvedselect .improvedselect_all {
+    float: left;
+  }
+  .improvedselect .improvedselect_sel {
+    float: right;
+  }
+  .improvedselect .clear {
+    clear: both;
+  }
+  .improvedselect {
+    border: 1px solid gray;
+    background: #eee;
+    padding: 1%;
+    min-width: 440px;
+    overflow: hidden;
+  }
+
+
+  .no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  
+  .no-gutters > .col,
+  .no-gutters > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  
+
+  /*change heading size in welcome-callout*/
+div#welcome-callout h2 {
+  font-size: 1em;
+}
+
+.usa-accordion-bordered button.usa-button-unstyled {
+  position: relative;
+  display: flex;
+  padding: 15px 55px 17px 15px;
+} 
+.usa-accordion-bordered button[aria-expanded=false]:after, .usa-accordion-bordered button[aria-expanded=true]:after {
+  position: absolute;
+  right: 10px;
+}
+figure{
+margin-bottom: 20px;
+}
+
+#welcome-callout article.callout.content-item a {
+  font-size: 18px;
+}
+
+.sg-question input[title="Where do you live?"] {
+  width: 33%;
+}
+
+.sg-body p {
+  font-size: 1.9rem!important;
+}
+
+.sg-body h4, .sg-body h5, .sg-body h6 {
+  margin-bottom: 12px !important;
+}
+
+.sg-body h4 {
+  font-size: 1.3em !important;
+}
+
+.sg-body h1, .sg-body h2:not(.sg-page-title), .sg-body h3, .sg-body h4, .sg-body h5, .sg-body h6 {
+  font-family: "Nunito Sans","Helvetica","Roboto",Arial,sans-serif !important;
+  font-weight: 900 !important;
+}
+
+legend, .sg-type-radio .sg-question-title, .sg-comment-title label {
+  font-size: 1.2em;
+}
+.sg-type-checkbox ul.sg-list input.sg-input-checkbox[title="Other - Write In"], .sg-type-radio ul.sg-list input.sg-input-radio[title="Other - Write In"] {
+  top: .5em !important;
+  margin-bottom: 0;
+}
+
+.sg-type-checkbox ul.sg-labels-right label, .sg-type-radio ul.sg-labels-right label {
+  margin-bottom: 10px;
+}
+
+.sg-question input[type=text].sg-input-text-other {
+  margin-top: 10px!important;
+}
+
+.ballard-wrapper label, .grayform label, .welcome label, .sg-question-title, .thankyou label, .exit label, legend, .sg-type-radio .sg-question-title, .sg-comment-title label {
+  font-weight: bold;
+  font-family: "Hind","Helvetica","Roboto",Arial,sans-serif !important;
+  font-style: normal;
+}
+.sg-instructions {
+  font-weight: normal;
+  font-family: "Hind","Helvetica","Roboto",Arial,sans-serif !important;
+  font-style: normal;
+}
+
+.sg-wrapper {
+  border: none;
+  padding: 0;
+}
+
+.sg-button-bar {
+  text-align: center!important;
+}
+
+/*Creates emphasized h4 tag on survery*/
+.emphasized-section h4 {
+  background-color: #2a7997;
+  color: white!important;
+  padding: 15px;
+}
+
+/*Creates larger p tag on emphasized portion of survery*/
+.emphasized-section p {
+  font-size: 2.1rem!important;
+}
+
+article.widget-translate p {
+  margin-bottom: 12px;
+}
+
+article.widget-header h1 {
+  color: #fff;
+  font-size: 5rem;
+  margin-top: 0;
+  padding-top: 40px;
+  padding-bottom: 18px;
+}
+
+img.accordion-icon {
+  margin-right: 12px;
+}
+
+.icon-accordion {
+  text-indent: -60px;
+  padding-left: 60px;
+}
+
+input#sgE-6417131-1-45-10287-other {
+margin-bottom: 4px;
+}
+
+input#sgE-6417131-1-45-10287, input#sgE-6417131-1-38-10209, input#sgE-6417131-1-40-10226, input#sgE-6417131-1-42-10257 {
+margin-top: 6px;
+}
+
+/*full map css*/
+div#full-map {
+  margin-top: 60px;
+}
+
+/*Style table head*/
+table thead th {
+  background-color: #2a7997;
+  color: white;
+  text-align: center;
+}
+
+/*Increase table cell padding*/
+table th, table td {
+  padding: 1.2rem;
+}
+
+/*Increase heading size*/
+strong, b {
+  font-size: 2.5rem;
+}
+
+/*Decrease table cell padding*/
+table th, table td {
+  padding: 1rem;
+}
+
+/*Align thumbnail center and reduce width*/
+.thumbnail {
+  text-align: center;
+  max-width: fit-content;
+}
+
+/*P margin in table*/
+td p {
+  margin: 0;
+}
+
+/*Color table headings*/
+tr.table-heading {
+  background-color: #f1f1f1;
+}
+
+/*Survey CSS*/
+
+/*Reduce width of map*/
+a.thumbnail.survey-map {
+  max-width: 67%;
+}
+
+table.survey{
+min-width: 66%;
+}
+
+table.survey td {
+  padding:  0.5rem;
+}
+
+table.survey p {
+  margin:  0 0 0.3rem;
+}
+
+/*Custom Table Media Queries*/
+@media screen and (max-width: 414px) {
+  td p {
+      font-size: 1.4rem;
+  }
+  table th, table td {
+  padding: 0.5rem;
+  }
+}
+
+
+@media screen and (max-width:  768px) {
+.sg-question input[type=text].sg-input-text-other {
+    margin-top: 4px!important;
+    margin-bottom: 16px;
+    max-width: 50%;
+}
+
+/*Resize p tag in emphasized section of survey*/
+.emphasized-section p {
+    font-size: 1.9rem!important;
+}
+}
+.widget-translate .html-widget-body a, .widget-translate .html-widget-body span{
+color: #fff;
+}
+.widget-translate .html-widget-body span[data-toggle="modal"]{
+text-decoration: none;
+}
+.widget-translate .html-widget-body span[data-toggle="modal"]:hover{
+text-decoration: underline !important;
+}
+/*Site heading media queries*/
+@media screen and (max-width: 460px) {
+  article.widget-header h1 {
+  font-size: 4rem;
+  }
+  @media screen and (max-width:  370px) {
+    article.widget-header h1 {
+      font-size: 3rem;
+      }
+  }
+}
+
+@media screen and (max-width:  320px) {
+.sg-question input[type=text].sg-input-text-other {
+    max-width: 100%;
+}
+}
+
+
+    /* new css 2023 */
+
+    .language-links-header {
+      color:#ffff !important;
+      text-decoration: none;
+    
+    }
+    .language-links-header a {
+  color:#ffff !important;
+  text-decoration: none;
+}
+
+.language-links-header a:hover {
+  text-decoration: underline;
+}
+
+
+/**
+ * AddToCalendar Blue Style
+ * http://addtocalendar.com
+ */
+
+/* Base */
+
+.addtocalendar var{
+  display: none;
+}
+
+.addtocalendar {
+  position: relative;
+  display: inline-block;
+  background: transparent!important;
+}
+
+.atcb-link {
+  display: block;
+  outline: none!important;
+  cursor: pointer;
+}
+
+.atcb-link:focus~ul,
+.atcb-link:active~ul,
+.atcb-list:hover{
+  visibility:visible;
+}
+
+.atcb-list {
+  visibility: hidden;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 170px;
+  z-index: 900;
+}
+
+.atcb-list,
+.atcb-item
+{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
+
+.atcb-item {
+  float: none;
+  text-align: left;
+}
+
+.atcb-item-link
+{
+  text-decoration: none;
+  outline: none;
+  display: block;
+}
+
+.atcb-item.hover,
+.atcb-item:hover {
+  position: relative;
+  z-index: 900;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+}
+
+
+/* Blue */
+
+.atc-style-blue .atcb-link,
+.atc-style-blue .atcb-link:hover,
+.atc-style-blue .atcb-link:active,
+.atc-style-blue .atcb-link:focus
+{
+  margin: 0;
+  padding: 7px 25px;
+  color: #fff;
+  font-family: "Verdana";
+  font-size: 14px;
+  text-decoration: none;
+  outline: none;
+  line-height: 20px;
+  vertical-align: middle;
+  background: rgb(66,129,244);
+  box-shadow: 0 0 40px rgba(0, 0, 0, .13) inset;
+  border-radius: 4px;
+  zoom: 1;
+}
+
+.atc-style-blue .atcb-list {
+  width: 170px;
+  border: 1px solid rgb(186,186,186);
+  border-radius: 2px;
+  box-shadow: 0 0 5px #AAA;
+}
+
+.atc-style-blue .atcb-list,
+.atc-style-blue .atcb-item
+{
+  background: #fff;
+  color: #000;
+}
+
+.atc-style-blue .atcb-item,
+.atc-style-blue .atcb-item-link
+{
+  line-height: 1.3em;
+  vertical-align: middle;
+  zoom: 1;
+}
+
+.atc-style-blue .atcb-item-link,
+.atc-style-blue .atcb-item-link:hover,
+.atc-style-blue .atcb-item-link:active,
+.atc-style-blue .atcb-item-link:focus
+{
+  color: #000;
+  font-family: "Verdana";
+  font-size: 14px;
+  text-decoration: none;
+  outline: none;
+  padding: 5px 15px;
+}
+
+.atc-style-blue .atcb-item-link:hover,
+.atc-style-blue .atcb-item-link:active,
+.atc-style-blue .atcb-item-link:focus
+{
+  color: #fff;
+}
+
+.atc-style-blue .atcb-item.hover,
+.atc-style-blue .atcb-item:hover {
+  background: rgb(66,129,244);
+}
